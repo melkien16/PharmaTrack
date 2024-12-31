@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Hero from "./Hero";
 import About from "./About";
 import Feauture from "./Feauture";
+import Testimonial from "./Testimonial";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <About />
       <Feauture />
+      <Testimonial />
     </Fragment>
   );
 };
