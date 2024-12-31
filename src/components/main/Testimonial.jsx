@@ -4,11 +4,11 @@ import Img from "/images/testimonial.jpg";
 const Testimonial = () => {
   return (
     <div className="bg-secondary-200 p-28">
-      <h1 className="text-4xl font-bold text-center mb-10">
+      <h1 className="text-4xl font-bold text-center mb-14">
         What Our Users Say
       </h1>
       <div className="flex justify-center space-x-5">
-        <div className="w-1/3 p-5 bg-white rounded-lg shadow-lg">
+        <div className="w-1/3 p-5 bg-white rounded-lg shadow-lg hover:scale-110 transition-transform duration-500 ease-in-out">
           <p className="text-lg italic text-gray-700">
             <q>
               {" "}
@@ -30,7 +30,7 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/3 p-5 bg-white rounded-lg shadow-lg">
+        <div className="w-1/3 p-5 bg-white rounded-lg shadow-lg hover:scale-110 transition-transform duration-500 ease-in-out">
           <p className="text-lg italic text-gray-700">
             <q>
               {"  "}
@@ -52,7 +52,7 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/3 p-5 bg-white rounded-lg shadow-lg">
+        <div className="w-1/3 p-5 bg-white rounded-lg shadow-lg hover:scale-110 transition-transform duration-500 ease-in-out">
           <p className="text-lg italic text-gray-700">
             <q>
               {"  "}
