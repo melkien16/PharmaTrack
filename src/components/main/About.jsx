@@ -13,7 +13,7 @@ const About = () => {
         Why Choose Us?
       </h1>
       <div className="flex flex-col md:flex-row justify-around items-center">
-        <div className="max-w-sm m-4 p-6 bg-white rounded-lg shadow-lg">
+        <div className="max-w-sm m-4 p-6 bg-white rounded-lg shadow-lg hover:scale-110 transition duration-300">
           <img src={DR3} alt="Fast and Reliable" className="rounded-md mb-4" />
           <h2 className="text-2xl font-semibold text-gray-700">
             Fast and Reliable
@@ -22,7 +22,7 @@ const About = () => {
             Search and find pharmacies with real-time updates
           </p>
         </div>
-        <div className="max-w-sm m-4 p-6 bg-white rounded-lg shadow-lg">
+        <div className="max-w-sm m-4 p-6 bg-white rounded-lg shadow-lg hover:scale-110 transition duration-300">
           <img src={DR1} alt="Wide Coverage" className="rounded-md mb-4" />
           <h2 className="text-2xl font-semibold text-gray-700">
             Wide Coverage
@@ -31,7 +31,7 @@ const About = () => {
             Locate pharmacies across multiple cities
           </p>
         </div>
-        <div className="max-w-sm m-4 p-6 bg-white rounded-lg shadow-lg">
+        <div className="max-w-sm m-4 p-6 bg-white rounded-lg shadow-lg hover:scale-110 transition duration-300">
           <img
             src={DR2}
             alt="Accurate Information"
