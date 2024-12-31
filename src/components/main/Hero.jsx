@@ -29,7 +29,7 @@ const Hero = () => {
           id="medicin"
           className="w-full bg-white border border-gray-300 p-3 rounded-lg shadow-md pl-12 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
         />
-        <button className="bg-primary-500 text-white px-6 py-3 rounded-md shadow-md hover:bg-primary-600 transition duration-300 whitespace-nowrap ml-4">
+        <button className="bg-primary-900 text-white px-6 py-3 rounded-md shadow-md hover:bg-primary-shade transition duration-300 whitespace-nowrap ml-4 hover:shadow-lg">
           Search Now
         </button>
       </form>

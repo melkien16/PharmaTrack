@@ -8,13 +8,13 @@ import DR3 from "/images/dr3.jpg";
 
 const About = () => {
   return (
-    <div className="p-10 bg-primary-200">
+    <div className="p-10 bg-secondary-200">
       <h1 className="text-center text-4xl font-extrabold m-8 text-gray-800">
         Why Choose Us?
       </h1>
       <div className="flex flex-col md:flex-row justify-around items-center">
         <div className="max-w-sm m-4 p-6 bg-white rounded-lg shadow-lg">
-          <img src={IMG1} alt="Fast and Reliable" className="rounded-md mb-4" />
+          <img src={DR3} alt="Fast and Reliable" className="rounded-md mb-4" />
           <h2 className="text-2xl font-semibold text-gray-700">
             Fast and Reliable
           </h2>
