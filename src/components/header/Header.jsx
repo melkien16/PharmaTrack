@@ -3,7 +3,7 @@ import NavList from "./NavList";
 
 const Header = () => {
   return (
-    <div className="bg-primary-default text-white p-4 flex justify-between items-center px-20 fixed left-0 right-0 top-0">
+    <div className="bg-primary-default text-white p-4 flex justify-between items-center px-20 fixed left-0 right-0 top-0 z-50">
       <div>
         <h1 className="text-[32px] font-bold text-center">PharmaTrack</h1>
       </div>
