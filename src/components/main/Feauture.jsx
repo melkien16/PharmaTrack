@@ -18,7 +18,9 @@ const Feauture = () => {
             <img src={Img1} alt="" className="w-12 h-12" />
             <div>
               <h2 className="text-2xl font-bold mb-2">Search and Filter</h2>
-              <p className="text-lg mb-4">Search and filter pharmacies by distance</p>
+              <p className="text-lg mb-4">
+                Search and filter pharmacies by distance
+              </p>
             </div>
           </div>
           <div className="w-full bg-primary-100 p-6 px-14 rounded-full shadow-xl hover:bg-primary-200 transition duration-300 flex items-center space-x-10 hover:scale-110">
@@ -26,7 +28,7 @@ const Feauture = () => {
             <div>
               <h2 className="text-2xl font-bold mb-2">Locate on Map</h2>
               <p className="text-lg mb-4">
-                Locate pharmacies on Interactive Map View
+                Real-Time Pharmacy Locator on Interactive Map View
               </p>
             </div>
           </div>
