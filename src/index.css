@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @layer utilities {
+    .menu {
+      @apply sm:px-10 px-5;
+    }
+    .titles {
+      @apply text-2xl text-green-800;
+    }
+  }
+}
