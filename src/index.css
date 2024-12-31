@@ -1,6 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.cdnfonts.com/css/roboto");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+}
 
 @layer utilities {
   @layer utilities {
