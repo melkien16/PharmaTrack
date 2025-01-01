@@ -11,14 +11,14 @@ const Hero = () => {
           alt="Pharmacy Background"
           className="w-full h-full object-cover opacity-80"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-30" ></div>
       </div>
 
-      <h1 className="text-center text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-white">
+      <h1 className="text-center text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-slate-100 font-poppins">
         Find Medicines <br /> Instantly, Anytime, Anywhere.
       </h1>
 
-      <p className="text-center text-lg md:text-xl lg:text-2xl mt-5 max-w-2xl text-gray-300">
+      <p className="text-center text-md md:text-xl lg:text-2xl mt-5 max-w-2xl text-gray-300 font-serif">
         Your trusted platform to search for drugs and locate the nearest
         pharmacy in just seconds.
       </p>
