@@ -49,7 +49,12 @@ export default {
         secondary: "linear-gradient(90deg, #00fa5d 0%, #fa00d6 100%)",
         tertiary: "linear-gradient(90deg, #fa00d6 0%, #0111fa 100%)",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        sourceSans: ["Source Sans Pro", "sans-serif"],
     },
   },
+},
   plugins: [],
 };
