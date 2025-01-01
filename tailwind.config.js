@@ -30,19 +30,7 @@ export default {
           100: "#ffffff",
           shade: "#007d2f",
         },
-        tertiary: {
-          default: "#fa00d6",
-          900: "#fb33e1",
-          800: "#fc4df0",
-          700: "#fc66f9",
-          600: "#fd80ff",
-          500: "#fd99ff",
-          400: "#feb3ff",
-          300: "#fecce6",
-          200: "#ffebff",
-          100: "#ffffff",
-          shade: "#7d007a",
-        },
+        
       },
       backgroundImage: {
         primary: "linear-gradient(90deg, #0111fa 0%, #00fa5d 100%)",
