@@ -53,6 +53,7 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
         sourceSans: ["Source Sans Pro", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
     },
   },
 },
