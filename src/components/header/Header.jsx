@@ -4,7 +4,7 @@ import SVG from "../../assets/icons/SearchIcon.svg";
 
 const Header = () => {
   return (
-    <header className="bg-primary-default text-white p-4 flex justify-between items-center px-20 fixed left-0 right-0 top-0 z-50">
+    <header className="bg-primary-700 text-white p-4 flex justify-between items-center px-20 fixed left-0 right-0 top-0 z-50">
       <div className="flex flex-col items-center">
         <h1 className="text-[32px] font-bold">PharmaTrack</h1>
       </div>

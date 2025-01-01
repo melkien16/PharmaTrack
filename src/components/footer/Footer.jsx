@@ -3,7 +3,7 @@ import "devicon/devicon.min.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-500 text-white py-12 px-6">
+    <footer className=" bg-primary-500 text-white py-12 px-6 lg:px-16">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <h3 className="text-xl font-bold mb-4">PharmaTrack</h3>
