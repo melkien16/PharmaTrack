@@ -10,14 +10,14 @@ const Header = () => {
       </div>
       <nav className="flex items-center space-x-10">
         <form className="flex items-center space-x-2" action="">
-          <div className="bg-slate-300 p-[11px] flex items-center justify-center border-gray-300 rounded-md shadow-sm w-full md:w-auto -mr-[49px] z-50">
+          <div className="bg-primary-200 p-[11px] flex items-center justify-center border-gray-300 rounded-md shadow-sm w-full md:w-auto -mr-[49px] z-50">
             <img src={SVG} alt="Search Icon" className="w-5 h-5" />
           </div>
           <input
             type="text"
             placeholder="e.g., Paracetamol, Ibuprofen"
             id="medicine"
-            className="w-full bg-slate-300 border border-gray-300 p-3 py-2 rounded-lg shadow-md pl-12 text-gray-700 focus:outline-none"
+            className="w-full bg-primary-200 border border-gray-300 p-3 py-2 rounded-lg shadow-md pl-12 text-gray-700 focus:outline-none"
             aria-label="Search for medicine"
           />
           <button
