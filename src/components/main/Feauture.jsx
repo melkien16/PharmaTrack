@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "/images/pm2.jpg";
+import Img from "/images/pm1.jpg";
 import Img1 from "/images/filter.png";
 import Img2 from "/images/map.png";
 import Img3 from "/images/medical.png";
