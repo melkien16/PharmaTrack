@@ -1,6 +1,5 @@
 import React from "react";
 import SVG from "../../assets/icons/SearchIcon.svg";
-import IMG from "../../assets/homeImg.png";
 import BG_IMG from "/images/pm1.jpg";
 
 const Hero = () => {
