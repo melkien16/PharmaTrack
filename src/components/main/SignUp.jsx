@@ -101,6 +101,12 @@ const SignUp = () => {
                 Learn More
               </button>
             </div>
+            <p className="text-lg text-black mt-4 lg:mt-10">
+              Already have an account?{" "}
+              <a href="/signin" className="text-blue-600 hover:underline">
+                Sign In
+              </a>
+            </p>
           </form>
         </div>
       </div>
