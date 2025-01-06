@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import NavList from "./NavList";
 import SVG from "../../assets/icons/SearchIcon.svg";
 import Modal from "../../functionality/Overlay";
+import Pharmacies from "../../pharmacyData/Pharmacies";
 
 const Header = () => {
   const [isCliked, setIsClicked] = useState(false);
@@ -18,57 +19,42 @@ const Header = () => {
     <header className="bg-primary-700 text-white p-4 flex justify-between items-center px-20 fixed left-0 right-0 top-0 z-50">
       {isCliked && (
         <Modal>
-          <div className="h-[1000px] bg-red-500 overflow-auto">
-            <h1 className="text-2xl text-center text-gray-800 m-6">
-              Avialable pharmacies
+          <div className="overflow-auto h-[600px]">
+            <h1 className="text-4xl text-center text-gray-800 font-bold my-3">
+              Available pharmacies
             </h1>
-
             <div>
-              <div className="w-3/4 m-auto p-4 bg-slate-500 rounded-lg">
-                <h2 className="text-2xl font-bold text-center">
-                  Maleda Pharmacy
-                </h2>
-                <div className="flex justify-between items-center py-8 px-8">
-                  <div className="w-2/3 p-4 rounded-lg">
-                    <p>
-                      Maleda pharmacy high rated pharmacy Lorem ipsum dolor sit
-                      amet consectetur adipisicing elit. Aperiam pariatur
-                      temporibus dolor perspiciatis. Iure, eaque earum tenetur
-                      amet sunt voluptatem.
-                    </p>
-                    <p className="text-center">has five rate</p>
-                  </div>
-                  <div className="flex flex-col justify-center items-center space-y-4 bg-slate-400 p-4 rounded-lg">
-                    <p className="border-b-2"><span className="text-2xl font-bold">340</span> ETB</p>
-                    <p>
-                      34 km <br />
-                      away
-                    </p>
-                    <button className="bg-slate-500 py-2 px-4 rounded-2xl">Go</button>
-                  </div>
-                </div>
-              </div>
-              <div className="w-3/4 m-auto p-4 border-b-2">
-                <h2 className="text-2xl font-bold text-center">
-                  Maleda Pharmacy
-                </h2>
-                <div className="flex justify-between items-center py-8 px-8 ">
-                  <div className="w-2/3">
-                    <p>
-                      Maleda pharmacy high rated pharmacy Lorem ipsum dolor sit
-                      amet consectetur adipisicing elit. Aperiam pariatur
-                      temporibus dolor perspiciatis. Iure, eaque earum tenetur
-                      amet sunt voluptatem.
-                    </p>
-                    <p className="text-center">has five rate</p>
-                  </div>
-                  <div>
-                    <p>340 Birr</p>
-                    <p>34 km</p>
-                    <p>away</p>
+              {Pharmacies.map((pharmacy) => (
+                <div className="border-b-2 mt-4">
+                  <h1 className="text-2xl font-bold text-center">
+                    {pharmacy.name}
+                  </h1>
+                  <div className="flex justify-between items-center py-8 px-8">
+                    <div className="w-1/2 p-4 rounded-lg">
+                      <p>{pharmacy.description}</p>
+                      <button className="bg-slate-400 py-2 px-6 rounded-lg mt-5">
+                        See More
+                      </button>
+                      <p className="mt-6">has {pharmacy.rate} rate</p>
+                    </div>
+                    <div className="flex flex-col justify-center items-center space-y-4 bg-slate-400 p-4 rounded-lg">
+                      <p className="border-b-2">
+                        <span className="text-2xl font-bold">
+                          {pharmacy.drugs[0].price}
+                        </span>{" "}
+                        ETB
+                      </p>
+                      <p>
+                        34 km <br />
+                        away
+                      </p>
+                      <button className="bg-slate-500 py-2 px-4 rounded-2xl">
+                        Go
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
         </Modal>

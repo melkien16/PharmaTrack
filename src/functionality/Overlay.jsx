@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 const BackDrop = (props) => {
   return (
     <div
-      className="fixed top-0 right-0 left-0 w-full h-screen bg-black opacity-70 z-30"
+      className="fixed top-0 right-0 left-0 w-full h-screen bg-black opacity-70 z-40"
       onClose={props.onClose}
     />
   );
@@ -12,8 +12,8 @@ const BackDrop = (props) => {
 
 const Overlay = (props) => {
   return (
-    <div className="rounded-lg w-3/4 bg-white p-3 shadow-lg fixed top-[15vh] left-[13%] z-40">
-      {props.children}
+    <div className="rounded-lg w-3/4 bg-white p-3 shadow-lg fixed top-[15vh] left-[13%] z-50">
+      <div>{props.children}</div>
     </div>
   );
 };
